@@ -28,9 +28,9 @@ export default function Home() {
           <div className={styles.openingVideo}>
             <OpeningVideo/>
           </div>
-          
+          <div className={styles.Testing}></div>
           <div className={styles.bottomDisplay}>
-          
+            
             <InputArea onInputChange={handleInputChange}/>
             <BottomDisplay input={input} setInput={setInput}/>
           </div>
@@ -41,7 +41,6 @@ export default function Home() {
 }
 
 /* 
-  <div className={styles.Testing}></div>
 
 const YourComponent = () => {
   const [input, setInput] = useState('');

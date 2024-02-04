@@ -23,7 +23,7 @@
 
 .inputAreaImage{
     margin-top:1vw;
-    animation: pulse 3s infinite alternate;
+    animation: pulse 5s infinite alternate;
 }
 
 @keyframes pulse {

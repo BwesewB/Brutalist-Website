@@ -12,6 +12,7 @@ const InputArea = ({ onInputChange }) => {
     };
   
     return (
+      <div className={styles.inputAreaWrap}>
         <div className={styles.inputArea}>
           <input
             id="input"
@@ -22,6 +23,8 @@ const InputArea = ({ onInputChange }) => {
           />
           <Image src="/images/Asset1.svg" alt="Fading Icon" width={100} height={100} layout="responsive" className={styles.inputAreaImage}/>
         </div>
+      </div>
+
     );
 };
 

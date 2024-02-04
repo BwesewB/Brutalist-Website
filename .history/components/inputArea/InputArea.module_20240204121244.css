@@ -1,10 +1,16 @@
+.inputAreaWrapper {
+    position: sticky;
+    top: 20px; /* Adjust the top position as needed */
+    z-index: 1000;
+}
+
 .inputArea{
     /* border: 5px solid red; */
     position: sticky;
-    top: 8vw;
+    top: 10px;
     z-index: 1000;
-    margin:4vw;
-    margin-right:6vw;
+    margin:2vw;
+    margin-right:4vw;
     height:20vw;
     grid-column: 4/5; 
     grid-row:1/2;
@@ -23,16 +29,5 @@
 
 .inputAreaImage{
     margin-top:1vw;
-    animation: pulse 3s infinite alternate;
 }
 
-@keyframes pulse {
-    0% {
-        transform: translateY(0);
-        opacity: 1;
-}
-    100% {
-        transform: translateY(1vw);
-        opacity: 0.7;
-}
-}
