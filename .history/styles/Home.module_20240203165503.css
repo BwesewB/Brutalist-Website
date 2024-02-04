@@ -1,0 +1,47 @@
+.main {
+}
+
+/* <div class="titlePage">
+<div class="graphic"></div>
+<div class="inputArea"></div>
+</div>
+<div class="displayArea">
+<div class="posterOne"></div>
+<div class="posterTwo"></div>
+<div class="posterThree"></div>
+<div class="posterFour"></div>
+<div class="posterFive"></div>
+<div class="posterSix"></div>
+</div> */
+
+.titlePage{
+
+}
+.graphic{
+
+}
+.inputArea{
+
+}
+
+.displayArea {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  border: 1px solid black;
+}
+
+.posterOne,
+.posterTwo,
+.posterThree,
+.posterFour,
+.posterFive,
+.posterSix {
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+.posterTwo{
+  grid-column: 1/3;
+}

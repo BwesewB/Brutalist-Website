@@ -1,0 +1,53 @@
+.main {
+  box-sizing: border-box;
+
+}
+
+.WholeBody{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:4vh;
+  background-image: url('/images/BackgroundImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titlePage{
+  height:50vw;
+  grid-column: 1/5;
+  border: 5px solid red;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:2vw;
+}
+
+.bottomDisplay{
+  grid-column: 1/5;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:4vw;
+}
+
+.openingVideo h1{
+  font-size: 8vh;
+  top:5vw;
+  left:2vh;
+
+}
+
+.openingVideo h3{
+  
+}
+
+.openingVideo{
+  height:50vw;
+  overflow: hidden;
+  width:100%;
+  grid-column: 1/5;
+}
+
+.openingVideo h1, .openingVideo h3{
+  position:absolute;
+  font-family: 'Raleway';
+  color: #d3d3d3;
+}

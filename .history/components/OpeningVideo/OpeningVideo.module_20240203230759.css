@@ -1,0 +1,16 @@
+.openingVideo h1{
+    font-size: 3vw;
+    top:5vw;
+  }
+  
+  .openingVideo h3, .openingVideo h4{
+    font-size: 1vw;
+    top:10vw;
+  }
+  
+  .openingVideo h1, .openingVideo h3, .openingVideo h4{
+    position:absolute;
+    font-family: 'Raleway';
+    color: #d3d3d3;
+    left:5vh;
+  }

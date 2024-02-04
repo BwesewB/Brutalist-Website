@@ -1,0 +1,9 @@
+.inputArea{
+    position:sticky;
+    border: 5px solid red;
+    margin:2vw;
+    margin-right:4vw;
+    grid-column: 4/5; 
+    grid-row:1/2;
+    height:20vw;
+}

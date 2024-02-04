@@ -1,0 +1,30 @@
+.main {
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:4vh;
+  box-sizing: border-box;
+  background-image: url('/images/BackgroundImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.titlePage{
+  height:50vw;
+  grid-column: 1/5;
+  border: 5px solid red;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:2vw;
+}
+
+.bottomDisplay{
+  grid-column: 1/5;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:4vw;
+}
+
+.barcode{
+  position:static;
+}

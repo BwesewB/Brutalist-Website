@@ -1,0 +1,13 @@
+:root{
+  --calmWhite: #d3d3d3;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-VariableFont_wght') format('truetype');
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}

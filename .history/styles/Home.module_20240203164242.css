@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 20vh;
+}
+
+
+
+.titlePage{
+
+}
+.graphic{
+
+}
+.inputArea{
+
+}
+
+.displayArea{
+  display:grid;
+
+}
+
+.displayArea div{
+  border: 1px solid blue;
+}

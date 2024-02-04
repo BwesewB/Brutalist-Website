@@ -1,0 +1,74 @@
+.main {
+  box-sizing: border-box;
+
+}
+
+.WholeBody{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:4vh;
+  background-image: url('/images/BackgroundImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titlePage{
+  height:50vw;
+  grid-column: 1/-1;
+  border: 5px solid red;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:2vw;
+}
+
+.bottomDisplay{
+  grid-column: 1/-1;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:4vw;
+}
+
+.openingVideo{
+  height:50vw;
+  overflow: hidden;
+  width:100%;
+  grid-column: 1/-1;
+}
+
+/*----------------------------------------------*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 100px); /* Adjust height as needed */
+  gap: 10px; /* Adjust gap between cells */
+}
+
+.cell {
+  width: 100%;
+  height: 100%;
+}
+
+/* Define background colors for each class */
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.orange {
+  background-color: orange;
+}

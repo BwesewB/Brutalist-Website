@@ -1,0 +1,23 @@
+.titlePage{
+    height:80vw;
+    grid-column: 1/5;
+    border: 5px solid red;
+  /*---------------------------------------------------------------------------------------------------------*/
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:2vw;
+  }
+  
+  .graphic, .displayPanel{
+    border: 5px solid blue;
+    margin:4vw;
+  }
+  
+  .graphic{
+    grid-column: 1/2;
+  }
+  
+  .displayPanel{
+    grid-column: 2/3;
+    grid-template-columns: repeat(2, 1fr);
+  }

@@ -1,0 +1,56 @@
+.main {
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:4vh;
+  box-sizing: border-box;
+}
+
+/* <div class="titlePage">
+<div class="graphic"></div>
+<div class="inputArea"></div>
+</div>
+<div class="displayArea">
+<div class="posterOne"></div>
+<div class="posterTwo"></div>
+<div class="posterThree"></div>
+<div class="posterFour"></div>
+<div class="posterFive"></div>
+<div class="posterSix"></div>
+</div> */
+
+.titlePage{
+  height:80vw;
+  grid-column: 1/5;
+  border: 5px solid red;
+/*---------------------------------------------------------------------------------------------------------*/
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:2vw;
+}
+
+.graphic, .displayPanel{
+  border: 5px solid blue;
+  margin:4vw;
+}
+
+.graphic{
+  grid-column: 1/2;
+}
+
+.displayPanel{
+  grid-column: 2/3;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+.bottomDisplay{
+  grid-column: 1/5;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:4vw;
+}
+
+
+

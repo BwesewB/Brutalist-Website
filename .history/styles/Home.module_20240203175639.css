@@ -1,0 +1,96 @@
+.main {
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:4vh;
+  box-sizing: border-box;
+}
+
+/* <div class="titlePage">
+<div class="graphic"></div>
+<div class="inputArea"></div>
+</div>
+<div class="displayArea">
+<div class="posterOne"></div>
+<div class="posterTwo"></div>
+<div class="posterThree"></div>
+<div class="posterFour"></div>
+<div class="posterFive"></div>
+<div class="posterSix"></div>
+</div> */
+
+.titlePage{
+  height:80vh;
+  grid-column: 1/5;
+  border: 5px solid red;
+/*---------------------------------------------------------------------------------------------------------*/
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:2vh;
+}
+
+.graphic, .displayPanel{
+  border: 5px solid blue;
+  margin:4vh;
+}
+
+.graphic{
+  grid-column: 1/2;
+}
+
+.displayPanel{
+  grid-column: 2/3;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+.inputArea{
+  border: 5px solid red;
+  margin:4vh;
+  grid-column: 4/5; 
+  grid-row:1/2;
+  height:30vh;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+.bottomDisplay{
+  grid-column: 1/5;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:4vh;
+}
+
+.displayArea {
+  grid-column: 1/4;
+/*--------------------------------------------------------------------------------------------------------- This needs to be in a component*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2vh;
+  height:140vh;
+  padding: 4vh;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+.posterOne,
+.posterTwo,
+.posterThree,
+.posterFour,
+.posterFive,
+.posterSix {
+  background-color: aquamarine;
+  border: 5px solid red;
+}
+
+.posterTwo{
+  grid-column: 2/4;
+  grid-row: 1/3;
+}
+
+.posterFour{
+  grid-column: 1/3;
+  grid-row: 3/5;
+}

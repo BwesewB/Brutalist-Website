@@ -1,0 +1,18 @@
+.inputArea{
+    display:flex;
+    border: 5px solid red;
+    margin:2vw;
+    grid-column: 4/5; 
+    grid-row:1/2;
+    height:20vw;
+    justify-content: center;
+}
+
+.inputArea input{
+    background-color: var(--calmBlack);
+    font-family: 'Raleway';
+    border-radius: 10px;
+    height:3vw;
+    width: 10vw;
+    color: white;
+}

@@ -1,0 +1,13 @@
+:root{
+  
+}
+
+@font-face {
+    font-family: 'Hiragana';
+    src: url('public/fonts/Hiragino Kaku Gothic Std W8.otf') format('truetype');
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}

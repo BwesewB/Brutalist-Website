@@ -1,0 +1,21 @@
+.main {
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:4vh;
+  box-sizing: border-box;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+.bottomDisplay{
+  grid-column: 1/5;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:4vw;
+}
+
+
+

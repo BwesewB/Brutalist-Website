@@ -1,0 +1,17 @@
+.inputArea{
+    display:flex;
+    border: 5px solid red;
+    margin:2vw;
+    grid-column: 4/5; 
+    grid-row:1/2;
+    height:20vw;
+    justify-content: center;
+}
+
+.inputArea input{
+
+    background-color: var(--calmWhite);
+    border: none;
+    padding: 0;
+    font-family: inherit;
+}
