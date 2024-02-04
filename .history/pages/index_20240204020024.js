@@ -15,7 +15,7 @@ export default function Home() {
         <title>Brutalism</title>
         <meta name="description" content="Brutalist Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/images/Asset1.svg" />
+        <link rel="icon" href="/images/Arrows.png" />
       </Head>
       <main className={`${styles.main}`}>
         <div className={styles.WholeBody}>
