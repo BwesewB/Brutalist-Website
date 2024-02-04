@@ -15,14 +15,14 @@
     font-family: 'Raleway';
     font-size:0.8vw;
     border-radius: 2px;
-    height:3vw;
+    height:2vw;
     width: 96%;
     color: white !important;
     text-indent: 0.8vw;
 }
 
 .inputAreaImage{
-    margin-top:0.4vw;
+    margin-top:1vw;
     animation: pulse 3s infinite alternate;
 }
 

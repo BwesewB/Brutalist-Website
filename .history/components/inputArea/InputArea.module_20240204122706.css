@@ -16,6 +16,7 @@
     font-size:0.8vw;
     border-radius: 2px;
     height:3vw;
+    outline-color: var(--calmBlack);
     width: 96%;
     color: white !important;
     text-indent: 0.8vw;
