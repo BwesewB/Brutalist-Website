@@ -23,7 +23,6 @@
 }
 
 .bottomDisplay{
-  position:relative;
   overflow:auto;
   grid-column: 1/-1;
   display:grid;
@@ -38,7 +37,7 @@
   grid-column: 1/-1;
 }
 
-.Testing{
+.InputArea{
   position:sticky;
   border: 5px solid red;
   top: 100px;

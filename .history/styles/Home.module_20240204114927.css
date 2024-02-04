@@ -23,7 +23,6 @@
 }
 
 .bottomDisplay{
-  position:relative;
   overflow:auto;
   grid-column: 1/-1;
   display:grid;

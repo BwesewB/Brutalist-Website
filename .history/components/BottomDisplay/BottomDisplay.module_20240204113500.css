@@ -24,11 +24,6 @@
     grid-row: 1/3;
 }
 
-.posterOne, .posterThree{
-    grid-column: 1/3;
-}
-
-
 .posterFour{
     grid-column: 1/3;
     grid-row: 3/5;

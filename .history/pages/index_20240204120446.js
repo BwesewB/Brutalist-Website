@@ -29,7 +29,7 @@ export default function Home() {
             <OpeningVideo/>
           </div>
           <div className={styles.bottomDisplay}>
-            <InputArea onInputChange={handleInputChange}/>
+            {/* Pass the input value and handler function to BottomDisplay */}
             <BottomDisplay input={input} setInput={setInput}/>
           </div>
         </div>
@@ -38,7 +38,36 @@ export default function Home() {
   );
 }
 
-/* 
+/*
+export default function Home() {
+
+  return (
+    <>
+      <Head>
+        <title>Brutalism</title>
+        <meta name="description" content="Brutalist Website" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/images/Asset1.svg" />
+      </Head>
+      <main className={`${styles.main}`}>
+        <div className={styles.WholeBody}>
+          <div className={styles.openingVideo}>
+            <OpeningVideo/>
+          </div>
+          {/* <div className={styles.titlePage}>
+            <CoverPage/>
+          </div> */
+          /* <div className={styles.Testing}></div> 
+          <div className={styles.bottomDisplay}>
+            <BottomDisplay/>
+          </div>
+        </div>
+      </main>
+    </>
+  );
+}
+
+{/* 
 
 const YourComponent = () => {
   const [input, setInput] = useState('');

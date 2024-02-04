@@ -1,13 +1,14 @@
 .inputArea{
-    /* border: 5px solid red; */
-    position: sticky;
-    top: 10px;
-    z-index: 1000;
+    position:sticky;
+    border: 5px solid red;
+    top: 100px;
     margin:2vw;
     margin-right:4vw;
     height:20vw;
+    z-index: 1000;
     grid-column: 4/5; 
     grid-row:1/2;
+    
 }
 
 .inputArea input{
@@ -24,4 +25,3 @@
 .inputAreaImage{
     margin-top:1vw;
 }
-

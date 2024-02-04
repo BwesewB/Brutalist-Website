@@ -8,12 +8,6 @@ import OpeningVideo from "@/components/OpeningVideo";
 import InputArea from "@/components/InputArea";
 
 export default function Home() {
-  const [input, setInput] = useState(0); // State to hold the input value
-
-  // Handler function to update the input value
-  const handleInputChange = inputValue => {
-    setInput(parseInt(inputValue));
-  };
 
   return (
     <>
@@ -28,9 +22,13 @@ export default function Home() {
           <div className={styles.openingVideo}>
             <OpeningVideo/>
           </div>
+          {/* <div className={styles.titlePage}>
+            <CoverPage/>
+          </div> */}
+          {/* <div className={styles.Testing}></div> */}
+          <InputArea onInputChange={handleInputChange}/>
           <div className={styles.bottomDisplay}>
-            <InputArea onInputChange={handleInputChange}/>
-            <BottomDisplay input={input} setInput={setInput}/>
+            <BottomDisplay/>
           </div>
         </div>
       </main>
@@ -38,7 +36,7 @@ export default function Home() {
   );
 }
 
-/* 
+{/* 
 
 const YourComponent = () => {
   const [input, setInput] = useState('');
@@ -79,5 +77,5 @@ const YourComponent = () => {
 };
 
 export default YourComponent;
-*/
+*/}
 

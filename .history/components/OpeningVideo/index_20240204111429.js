@@ -12,7 +12,9 @@ export default function OpeningVideo() {
                 <h4>Scroll Down</h4>
                 <div className={styles.arrow}></div>
             </div>
-            <Image src="/images/PlanetGif.gif" alt="Arrows" width={100} height={100} layout="responsive" className={styles.video}/>
+            <div className={`${styles.video}`}>
+                <Image src="/images/PlanetGif.gif" alt="Arrows" width={100} height={100} layout="responsive"/>
+            </div>
         </div>
         </>
     )

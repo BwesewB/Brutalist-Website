@@ -1,7 +1,7 @@
 .inputArea{
     /* border: 5px solid red; */
     position: sticky;
-    top: 10px;
+    top: 0;
     z-index: 1000;
     margin:2vw;
     margin-right:4vw;

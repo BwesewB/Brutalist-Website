@@ -23,10 +23,9 @@ const InputArea = ({ onInputChange }) => {
         <Image src="/images/Asset1.svg" alt="Fading Icon" width={100} height={100} layout="responsive" className={styles.inputAreaImage}/>
       </div>
     );
-};
-
-export default InputArea;
-
+  };
+  
+  export default InputArea;
 
 // export default function InputArea() {
 // const YourComponent = () => {
@@ -60,4 +59,4 @@ export default InputArea;
 //     );
 //   };
 // }
-//   export { input, classFilters, getClassStyle, handleChange }; */
+//   export { input, classFilters, getClassStyle, handleChange };

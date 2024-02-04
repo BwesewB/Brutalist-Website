@@ -18,10 +18,10 @@ const BottomDisplay = ({ input }) => {
     </div>
   );
 };
-
+/*
 export default BottomDisplay;
 
-/*
+
 const BottomDisplay = () => {
   const [input, setInput] = useState(0);
 
